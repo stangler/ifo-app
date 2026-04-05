@@ -1,10 +1,10 @@
 .PHONY: login preview deploy
 
 login:
-	wrangler login
+	pnpm exec wrangler login
 
 preview:
-	wrangler pages dev dist
+	pnpm exec wrangler pages dev dist
 
 deploy:
-	wrangler pages deploy dist --project-name ifo-tool
+	pnpm exec wrangler pages deploy dist --project-name ifo-tool
