@@ -1,0 +1,12 @@
+{
+  "name": "ifo-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "preview": "wrangler pages dev dist",
+    "deploy": "wrangler pages deploy dist --project-name ifo-tool"
+  },
+  "devDependencies": {
+    "wrangler": "^4.80.0"
+  }
+}
